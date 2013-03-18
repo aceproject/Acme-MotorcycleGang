@@ -1,0 +1,37 @@
+{
+   "abstract" : "Translate Japanese MotorcycleGang Language",
+   "author" : [
+      "yuichi tsunoda <yuichi.tsunoda@gmail.com>"
+   ],
+   "dynamic_config" : 1,
+   "generated_by" : "Module::Build version 0.4003, CPAN::Meta::Converter version 2.120921",
+   "license" : [
+      "unknown"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Acme-MotorcycleGang",
+   "prereqs" : {
+      "configure" : {
+         "requires" : {
+            "Module::Build" : "0.40"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Test::More" : "0",
+            "version" : "0"
+         }
+      }
+   },
+   "provides" : {
+      "Acme::MotorcycleGang" : {
+         "file" : "lib/Acme/MotorcycleGang.pm",
+         "version" : "v0.0.1"
+      }
+   },
+   "release_status" : "stable",
+   "version" : "v0.0.1"
+}

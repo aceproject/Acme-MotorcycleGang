@@ -1,0 +1,14 @@
+Build.PL
+Changes
+lib/Acme/MotorcycleGang.pm
+MANIFEST			This list of files
+META.json
+META.yml
+MYMETA.json
+MYMETA.yml
+README
+t/00.load.t
+t/01.MotorcycleGang.t
+t/perlcritic.t
+t/pod-coverage.t
+t/pod.t

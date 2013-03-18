@@ -1,0 +1,7 @@
+^blib
+^_build
+^pm_to_blib
+.git
+Makefile
+.shipit
+^MANIFEST\.
