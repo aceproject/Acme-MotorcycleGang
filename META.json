@@ -4,7 +4,7 @@
       "yuichi tsunoda <yuichi.tsunoda@gmail.com>"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "Module::Build version 0.4003, CPAN::Meta::Converter version 2.120921",
+   "generated_by" : "Module::Build version 0.4004, CPAN::Meta::Converter version 2.120921",
    "license" : [
       "unknown"
    ],
@@ -29,9 +29,9 @@
    "provides" : {
       "Acme::MotorcycleGang" : {
          "file" : "lib/Acme/MotorcycleGang.pm",
-         "version" : "v0.0.1"
+         "version" : "v0.0.2"
       }
    },
    "release_status" : "stable",
-   "version" : "v0.0.1"
+   "version" : "v0.0.2"
 }
