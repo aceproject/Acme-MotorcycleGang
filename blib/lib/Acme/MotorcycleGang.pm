@@ -2,7 +2,7 @@ package Acme::MotorcycleGang;
 
 use warnings;
 use strict;
-our $VERSION = '0.0.1';
+our $VERSION = '0.0.2';
 
 use utf8;
 
@@ -13,10 +13,27 @@ sub yorosiku {
 
   local $_ = $text;
 
-  s/あいらぶゆう/愛羅武勇/g;
+  s/あいらぶゆう|あいらぶゆー|アイラブユウ|アイラブユー/愛羅武勇/g;
+  s/あいしてる/愛死天流/g;
+  s/ありがとう/阿離我妬/g;
+  s/いのち/魂/g;
   s/おまわり/悪魔輪離/g;
+  s/かっとび/喝斗毘/g;
+  s/きまぐれ/鬼魔愚零/g;
+  s/きもんど/鬼門怒/g;
+  s/しゃこたん/車高短/g;
+  s/ぜんと/全塗/g;
+  s/だいすき/陀異守鬼/g;
+  s/でっぱつ/出発/g;
+  s/どらえもん/怒羅衛門/g;
+  s/ぶっちぎり/仏恥義理/g;
+  s/まくどなるど/魔苦怒奈流怒/g;
+  s/まじ/本気/g;
+  s/まぶだち/摩武駄致/g;
   s/そうしそうあい/走死走愛/g;
   s/よろしく/夜露死苦/g;
+  s/れっさ/烈怒鮫/g;
+
   s/あい/愛/g;
 
 
@@ -25,6 +42,8 @@ sub yorosiku {
 
 1;
 __END__
+
+=encoding utf-8
 
 =head1 NAME
 
