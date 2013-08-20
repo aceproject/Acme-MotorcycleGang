@@ -59,8 +59,8 @@
          "web" : "https://github.com/aceproject/Acme-MotorcycleGang"
       }
    },
-   "version" : "0.0.2",
+   "version" : "0.0.3",
    "x_contributors" : [
-      "aceproject <yuichi.tsunoda@gmail.com>"
+      "yuichi.tsunoda <yuichi.tsunoda@gmail.com>"
    ]
 }

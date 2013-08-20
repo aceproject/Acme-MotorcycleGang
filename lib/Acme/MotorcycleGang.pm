@@ -2,7 +2,7 @@ package Acme::MotorcycleGang;
 
 use warnings;
 use strict;
-our $VERSION = '0.0.2';
+our $VERSION = '0.0.3';
 
 use utf8;
 
@@ -52,7 +52,7 @@ Acme::MotorcycleGang - Translate Japanese MotorcycleGang Language
 
 =head1 VERSION
 
-This document describes Acme::MotorcycleGang version 0.0.1
+This document describes Acme::MotorcycleGang version 0.0.3
 
 
 =head1 SYNOPSIS

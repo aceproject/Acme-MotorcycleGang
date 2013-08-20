@@ -1,6 +1,7 @@
 Revision history for Acme-MotorcycleGang
 
-0.0.1  Mon Mar 18 06:55:59 2013
-       Initial release.
-0.0.2  Sun Apr 07 22:40:00 2013
-       transformed word list update
+{{$NEXT}}
+
+0.0.3 2013-08-20T13:32:32Z
+  - Minillize.
+
