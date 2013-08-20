@@ -1,0 +1,4 @@
+do{ my $x = {
+       'Acme-MotorcycleGang-*' => 1
+     };
+$x; }

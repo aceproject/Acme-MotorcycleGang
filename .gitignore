@@ -1,1 +1,8 @@
 .shipit
+/Acme-MotorcycleGang-*
+/.build
+/_build_params
+/Build
+!Build/
+!META.json
+!LICENSE
