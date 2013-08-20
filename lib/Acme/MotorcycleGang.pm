@@ -2,7 +2,7 @@ package Acme::MotorcycleGang;
 
 use warnings;
 use strict;
-our $VERSION = '0.0.3';
+our $VERSION = '0.0.4';
 
 use utf8;
 
@@ -36,6 +36,31 @@ sub yorosiku {
 
   s/あい/愛/g;
 
+  # 23 districts in Tokyo
+  s/いたばし/威汰罵紫/g;
+  s/きた/鬼多/g;
+  s/ねりま/根離魔/g;
+  s/としま/斗指魔/g;
+  s/あだち/亞駄痴/g;
+  s/あらかわ/悪裸迦倭/g;
+  s/すみだ/酢巳駄/g;
+  s/こうとう/抗闘/g;
+  s/かつしか/喝紫迦/g;
+  s/えどがわ/獲怒我倭/g;
+  s/しぶや/士武矢/g;
+  s/めぐろ/女愚炉/g;
+  s/せたがや/背汰我屋/g;
+  s/みなと/魅那斗/g;
+  s/しながわ/紫那我倭/g;
+  s/おおた/皇汰/g;
+  s/なかの/那迦乃/g;
+  s/すぎなみ/酢魏那魅/g;
+  s/ぶんきょう/聞狂/g;
+  s/しんじゅく/神呪苦/g;
+  s/たいとう/隊闘/g;
+  s/ちゅうおう/忠皇/g;
+  s/ちよだ/恥酔駄/g;
+
 
   $_;
 }
@@ -52,7 +77,7 @@ Acme::MotorcycleGang - Translate Japanese MotorcycleGang Language
 
 =head1 VERSION
 
-This document describes Acme::MotorcycleGang version 0.0.3
+This document describes Acme::MotorcycleGang version 0.0.4
 
 
 =head1 SYNOPSIS

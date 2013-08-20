@@ -6,7 +6,7 @@ Acme::MotorcycleGang - Translate Japanese MotorcycleGang Language
 
 # VERSION
 
-This document describes Acme::MotorcycleGang version 0.0.3
+This document describes Acme::MotorcycleGang version 0.0.4
 
 
 
