@@ -1,7 +1,8 @@
-use Test::More tests => 1;
+use strict;
+use Test::More 0.98;
 
-BEGIN {
-use_ok( 'Acme::MotorcycleGang' );
-}
+use_ok $_ for qw(
+    Acme::MotorcycleGang
+);
 
-diag( "Testing Acme::MotorcycleGang $Acme::MotorcycleGang::VERSION" );
+done_testing;
